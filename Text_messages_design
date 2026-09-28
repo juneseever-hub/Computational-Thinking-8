@@ -1,0 +1,35 @@
+print ("Hello! Welcome to my interactive story!")
+print ("But first, a few rules,")
+print ("1. You must answer 'yes' or 'no'")
+print ("2. Your only goal is to stay friends!!!")
+print ("                                  HIT ENTER TO START")
+input ()
+
+print (".-------------.")
+print ("| i hate you. |")
+print ("'-------------'")
+print ("                                                        .-------------.")
+print ("                                                        | what?! why? |")
+print ("                                                        '-------------'")   
+print (".-----------------------.")
+print ("| fiona said you called |")
+print ("| me ugly and stupid!   |")
+print ("'-----------------------'")
+print (".----------------.")
+print ("| is that true?! |")
+answer = input("'----------------'")
+
+if answer == "yes" :
+    print(".--------------------------------.")
+    print("| how dare you! you are so mean! |")
+    print("'--------------------------------'")
+    print(" YOU LOSTTTTT SORRY THIS WAS SHORT")
+elif answer == "no" :
+     print(".------------------------------.")
+     print("| oh ok were chill fiona sucks |")
+     print("'------------------------------'")
+     print(" YOU WINNNNNNNNNNNNNNNNNNNNNNNNN")
+else:
+     print("PLEASE TYPE YES OR NO AND START AGAIN")
+     print("good luuuuuuck")
+    
