@@ -7,5 +7,12 @@ elif answer == "happy" :
     print("im tired thooo")
 else:
     print("ok! all emotions are welcome!!!!")
-answer = input("whats your name?")
-
+poop = input("whats your name?")
+print (f"cool! nice to meet you {poop}, my name is june")
+hi = input("do you like school")
+if hi == "no":
+    print (" me neither lol")
+elif hi == "yes" or "yeah":
+    print ("yeah! me too")
+else:
+    print ("cool! me too")

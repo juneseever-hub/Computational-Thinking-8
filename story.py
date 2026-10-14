@@ -2,7 +2,16 @@ place = input("you wake up.its monday. will you go to school today?")
 if place == "no":
     poop = input(" where do u want to go?")
     print(f"oohhhhhhh {poop} is a goood answerrrrrr")
-    print(" bye bye ily!!! ٩(*❛⊰❛)～❤")   
+    rawr = input(f"what do you want to do at {poop}?") 
+    print (f" i want to {rawr} as well!")
+    nap = input("im tireddddd wanna nap!")
+    if nap == "yes":
+           print ("kk gnnnn")
+    elif nap == "no":
+           print ("oh.. ok :(")
+    else:
+           print (f"oh i didnt think you were gonna say {nap}")
+
 elif place == "yes":
     answer = input("BORRRRRRING wanna ditch?")
     if answer == "no":
@@ -26,3 +35,5 @@ elif place == "yes":
                            print (f"yessss {idk} is suchhhhhh a good choice! wish i was that rich")
                     elif blob == "no":
                            print ("kk we can be broke tgthr!!!!!!")
+                    else:
+                        print (f"wdym {blob}?")
