@@ -111,18 +111,18 @@ print ("C: Grenade - Bruno Mars")
 print ("D: Baby - Justin Beiber")
 print ("E: I dont sing...")
 print ("F: Free Style!!!!!!")
-answer5= input ()
-if answer5 == "D":
+answer6= input ()
+if answer6 == "D":
     coke_points += 1
-elif answer5 == "B":
+elif answer6 == "B":
      sprite_points += 1
-elif answer5 == "C":
+elif answer6 == "C":
      rootbeer_points += 1
-elif answer5 == "F":
+elif answer6 == "F":
      tea_points += 1
-elif answer5 == "A":
+elif answer6 == "A":
      water_points += 1
-elif answer5 == "E":
+elif answer6 == "E":
      coffee_points += 1
 print ("thank you for taking my quiz! hit enter to see your results!")
 input ()

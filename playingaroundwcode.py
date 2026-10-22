@@ -12,7 +12,7 @@ print (f"cool! nice to meet you {poop}, my name is june")
 hi = input("do you like school")
 if hi == "no":
     print (" me neither lol")
-elif hi == "yes" or "yeah":
+elif hi == "yes" or hi == "yeah":
     print ("yeah! me too")
 else:
     print ("cool! me too")
